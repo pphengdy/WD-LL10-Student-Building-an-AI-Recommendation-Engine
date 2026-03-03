@@ -1,48 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GlowGuide AI Demo</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-  <!-- =============================
-       STEP 1: Walk through structure first
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Recommendation Engine</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- =============================
+       TODO: Customize this for YOUR concept!
+       Options: Study Tips, Fitness Coach, 
+       Outfit Recommender, Productivity Booster, 
+       or Travel Suggestions
   ============================== -->
 
-  <nav>
-    <h2>GlowGuide</h2>
-    <span>AI Beauty Assistant</span>
-  </nav>
+    <nav>
+      <h2>AI Recommendation Engine</h2>
+      <span>Powered by AI</span>
+    </nav>
 
-  <section class="hero">
-    <h1>Your Personalized Beauty Recommendation Engine</h1>
-    <p>
-      Ask a skincare or beauty question and receive tailored
-      recommendations powered by AI.
-    </p>
+    <section class="hero">
+      <h1>Your AI-Powered Recommendation Engine</h1>
+      <p>
+        Ask a question and receive personalized recommendations powered by AI.
+      </p>
 
-    <!-- =============================
-         STEP 2: AI Interaction UI
+      <!-- =============================
+         REQUIRED ELEMENTS (Don't remove these IDs!)
+         - Input box (id="userInput")
+         - Submit button (id="askBtn")
+         - Display area (id="response")
     ============================== -->
 
-    <div class="ai-card">
-      <input
-        type="text"
-        id="userInput"
-        placeholder="What skincare routine is best for dry skin?"
-      />
-      <button id="askBtn">Ask GlowGuide</button>
-      <div id="response">AI response will appear here...</div>
-    </div>
-  </section>
+      <div class="ai-card">
+        <input type="text" id="userInput" placeholder="Ask me anything..." />
+        <button id="askBtn">Get Recommendation</button>
+        <div id="response">AI response will appear here...</div>
+      </div>
+    </section>
 
-  <footer>
-    © 2026 GlowGuide Demo. Educational Use Only.
-  </footer>
+    <footer>© 2026 LiveLab 10. Educational Use Only.</footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
